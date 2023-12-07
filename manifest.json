@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Hide Correct Answers",
+    "description": "Hides the correct answers on prarirelearn to allow better review.",
+    "version": "1.0",
+    "icons": {
+        "128": "images/icon_open-128.png"
+    },
+    "action": {
+        "default_icon": {
+            "128": "images/icon_open-128.png"
+        }
+    },
+    "permissions": [
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://us.prairielearn.com/pl/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
