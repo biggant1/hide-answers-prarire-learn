@@ -1,4 +1,4 @@
-const bannedSelectors = [".badge-success", ".grading-block", "div[data-testid]"]
+const bannedSelectors = [".badge-success", ".grading-block", "div[data-testid]", ".mathjax_ignore"]
 let checkedElements = [];
 let oldTextValue = ""
 
