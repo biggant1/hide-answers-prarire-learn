@@ -17,3 +17,9 @@
     - This includes questions that have multiple varients.
 
 - If you solved a question incorrectly, it will hide your incorrect answer, but once you click "Show Correct Answers" the extension will only show your previous incorrect answer.
+
+### TODO:
+
+- [ ] Allow text input for for free response questions instead of hiding the entire box.
+
+- [ ] Hide draggable proofs some way or another. Ideally the user to move around the proof blocks like the original question setup.
